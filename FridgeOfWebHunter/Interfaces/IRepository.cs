@@ -6,8 +6,7 @@
         Task<T> GetByIdAsync(int id);
 
         IEnumerable<T> GetAll();
-        Task<IEnumerable<T>> GetAllAsync();
-
+        
         void Add(T item);
         Task AddAsync(T item);
 
