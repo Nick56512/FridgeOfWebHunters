@@ -1,8 +1,14 @@
-function Navigation({children}){
+import { NavLink } from "react-router-dom"
+
+function Navigation(){
 
 	return(
 		<>
-			{children}
+			 <NavLink to="/">Home</NavLink>
+          <NavLink to="/recipes">Recipes</NavLink>
+          <NavLink to="/ingredients">Ingredients</NavLink>
+          <NavLink to="/signIn">SignIn</NavLink>
+          <NavLink to="/signUp">SignUp</NavLink>
 		</>
 	)
 }
