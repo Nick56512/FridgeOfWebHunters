@@ -1,22 +1,28 @@
 import React, { Component } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Link } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
-import { Layout } from './components/Layout';
-import './custom.css';
+import Navigation from './organisms/Navigation';
 
 export default class App extends Component {
   static displayName = App.name;
 
   render() {
     return (
-      <Layout>
+      <>
+        <Navigation>
+          <Link to="/">Home</Link>
+          <Link to="/recipes">Recipes</Link>
+          <Link to="/ingredients">Ingredients</Link>
+          <Link to="/signIn">SignIn</Link>
+          <Link to="/signUp">SignUp</Link>
+        </Navigation>
         <Routes>
           {AppRoutes.map((route, index) => {
             const { element, ...rest } = route;
             return <Route key={index} {...rest} element={element} />;
           })}
         </Routes>
-      </Layout>
+      </>
     );
   }
 }

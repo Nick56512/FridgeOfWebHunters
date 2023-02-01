@@ -72,5 +72,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "aspnetcore-https.js",
+  "author": "",
+  "license": "ISC"
 }
