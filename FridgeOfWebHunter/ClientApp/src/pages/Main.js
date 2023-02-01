@@ -1,3 +1,5 @@
+import Loading from "../atoms/Loading"
+
 function Main(){
 
 	return(
