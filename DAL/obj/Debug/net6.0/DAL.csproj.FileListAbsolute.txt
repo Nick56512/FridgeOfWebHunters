@@ -10,3 +10,15 @@ C:\Users\mirik\source\repos\FridgeOfWebHunters\DAL\obj\Debug\net6.0\DAL.dll
 C:\Users\mirik\source\repos\FridgeOfWebHunters\DAL\obj\Debug\net6.0\refint\DAL.dll
 C:\Users\mirik\source\repos\FridgeOfWebHunters\DAL\obj\Debug\net6.0\DAL.pdb
 C:\Users\mirik\source\repos\FridgeOfWebHunters\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\FridgeRepo\FridgeOfWebHunters\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\FridgeRepo\FridgeOfWebHunters\DAL\bin\Debug\net6.0\DAL.dll
+C:\FridgeRepo\FridgeOfWebHunters\DAL\bin\Debug\net6.0\DAL.pdb
+C:\FridgeRepo\FridgeOfWebHunters\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\FridgeRepo\FridgeOfWebHunters\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\FridgeRepo\FridgeOfWebHunters\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\FridgeRepo\FridgeOfWebHunters\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\FridgeRepo\FridgeOfWebHunters\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\FridgeRepo\FridgeOfWebHunters\DAL\obj\Debug\net6.0\DAL.dll
+C:\FridgeRepo\FridgeOfWebHunters\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\FridgeRepo\FridgeOfWebHunters\DAL\obj\Debug\net6.0\DAL.pdb
+C:\FridgeRepo\FridgeOfWebHunters\DAL\obj\Debug\net6.0\ref\DAL.dll
