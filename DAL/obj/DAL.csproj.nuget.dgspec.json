@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mirik\\source\\repos\\FridgeOfWebHunters\\DAL\\DAL.csproj": {}
+    "C:\\FridgeRepo\\FridgeOfWebHunters\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mirik\\source\\repos\\FridgeOfWebHunters\\DAL\\DAL.csproj": {
+    "C:\\FridgeRepo\\FridgeOfWebHunters\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mirik\\source\\repos\\FridgeOfWebHunters\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\FridgeRepo\\FridgeOfWebHunters\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\mirik\\source\\repos\\FridgeOfWebHunters\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\mirik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mirik\\source\\repos\\FridgeOfWebHunters\\DAL\\obj\\",
+        "projectPath": "C:\\FridgeRepo\\FridgeOfWebHunters\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\oleks\\.nuget\\packages\\",
+        "outputPath": "C:\\FridgeRepo\\FridgeOfWebHunters\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mirik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -50,7 +64,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
