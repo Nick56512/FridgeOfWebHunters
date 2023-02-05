@@ -15,5 +15,6 @@ namespace BLL.DTO
         public string Instruction { get; set; }
         public double Difficulty { get; set; }
         public string Image { get; set; }
+        public UserDto Owner { get; set; }
     }
 }

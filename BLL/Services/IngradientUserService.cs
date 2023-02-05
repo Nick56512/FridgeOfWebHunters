@@ -14,5 +14,13 @@ namespace BLL.Services
         public IngradientUserService(IRepository<IngredientUser> repository) : base(repository)
         {
         }
+
+        public Task<IEnumerable<IngradientUserDto>> GetUserIngredientsAsync(UserDto user) {
+            return Task.Run(async () => {
+                var result = await this.GetAllAsync();
+                result = result.Where(r => r.UserDto.Equals(user));
+                return result;
+            });
+        }
     }
 }

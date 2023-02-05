@@ -1,4 +1,6 @@
-﻿namespace FridgeOfWebHunter.Models
+﻿using FridgeOfWebHunter.Areas.Identity.Data;
+
+namespace FridgeOfWebHunter.Models
 {
     public class Recipe
     {
@@ -9,6 +11,7 @@
         public string Instruction { get; set; }
         public double Difficulty { get; set; }
         public string Image { get; set; }
+        public User Owner { get; set; }
 
     }
 }
